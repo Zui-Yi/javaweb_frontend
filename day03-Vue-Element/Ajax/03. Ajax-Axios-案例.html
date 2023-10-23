@@ -46,7 +46,7 @@
        },
        mounted () {
           //发送异步请求,加载数据
-          axios.get("http://yapi.smart-xwork.cn/mock/169327/emp/list").then(result => {
+          axios.get("https://mock.apifox.cn/m1/3128855-0-default/emp/list").then(result => {
             this.emps = result.data.data;
           })
        }
